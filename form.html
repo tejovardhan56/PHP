@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+
+	<fieldset>
+		<form action="insert.php" method="POST" enctype="multipart/form-data">
+		Name :<br>
+		<input type="text" name="Name" id="Name"><br><br>
+		Email :<br>
+		<input type="email" name="Email" id="Email"><br><br>
+		Choose Gender :<br>
+		<input type="radio" name="Gender" id="Radio" value="Male">Male<br>
+		<input type="radio" name="Gender" id="Radio" value="Female">Female<br>
+        <br>
+		Choose Shift Time :
+		<select name="Shift" id="Shift">
+			<option value="Morning">Morning</option>
+			<option value="Evening">Evening</option>
+			<option value="Night">Night</option>	
+		</select><br><br>
+        Upload Documents :<br>
+        <input type="file" name="file" id="file" value="Choose File">
+        <br><br>
+        Course Start Date :
+        <input type="date" name="Start_date" id="Start_date">
+        End Date :
+        <input type="date" name="End_date" id="End_date">
+        <br><br>
+        Comments :
+        <br>
+        <textarea name="Comments" rows="5" cols="50"></textarea>
+        <br><br>
+        <input type="Submit" name="Submit" value="Submit">
+        <br><br>
+        </form>
+	</fieldset>
+
+
+
+</body>
+</html>
